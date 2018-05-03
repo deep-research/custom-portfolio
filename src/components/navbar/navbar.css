@@ -1,0 +1,14 @@
+.navbar-brand {
+    font-size: 1.35em;
+}
+
+@media screen and (min-width: 470px) {
+    .navbar-brand {
+        font-size: 2em;
+    }
+}
+
+.nav-link {
+    color: black;
+    font-size: 120%;
+}
