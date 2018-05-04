@@ -1,5 +1,10 @@
 .navbar-brand {
     font-size: 1.35em;
+    color: rgb(182, 1, 1) !important;
+}
+
+.navbar-brand:hover {
+    color: darkred !important;
 }
 
 @media screen and (min-width: 470px) {
@@ -11,4 +16,8 @@
 .nav-link {
     color: black;
     font-size: 120%;
+}
+
+.nav-link:hover {
+    color: darkred;
 }
