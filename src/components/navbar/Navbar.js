@@ -21,7 +21,7 @@ class Navbar extends Component {
         }
 
         return (
-            <nav className="navbar justify-content-around navbar-light bg-light">
+            <nav className="navbar justify-content-around navbar-light bg-light mb-4">
                 <Link class="navbar-brand font-weight-bold" to="/projects">Victor's Coding Revolution!</Link>
                 <form className="form-inline">
                         <Link class="nav-link" to="/about" style={aboutBold}>ABOUT</Link>

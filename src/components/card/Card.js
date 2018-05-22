@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./card.css";
 import github from "./images/github.png";
 import linkedIn from "./images/linkedIn.png";
 import stackOverflow from "./images/stackOverflow.png";
@@ -11,7 +12,7 @@ class Card extends Component {
                 <div className="card-header">
                     Social Media
                 </div>
-                <div className="card-body d-flex flex-row  justify-content-center">
+                <div className="card-body d-flex flex-row justify-content-center">
                     <a href="https://www.github.com/deep-research"
                         target="_blank" rel="noopener noreferrer"
                         className="p-2" data-tip="Github">

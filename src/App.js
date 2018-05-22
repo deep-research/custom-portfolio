@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 import Card from "./components/card/Card"
 import {BrowserRouter as Router, Route, Switch, Redirect}
     from "react-router-dom";
@@ -17,7 +18,6 @@ class App extends Component {
 
                     <Switch>
                         <div className="container">
-                            <br />
                             <div class="row">
                                 <div class="col-md-8 col-sm-7">
                                     <Route exact path="/" render={() => (
@@ -32,6 +32,8 @@ class App extends Component {
                             </div>
                         </div>
                     </Switch>
+                    
+                    <Footer />
                 </div>
             </Router>
         );
