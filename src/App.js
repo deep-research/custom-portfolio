@@ -13,6 +13,7 @@ class App extends Component {
             <Router>
                 <div>
                     <Navbar  />
+
                     <Switch>
                         <Route exact path="/" render={() => (
                             <Redirect to="/projects" />
