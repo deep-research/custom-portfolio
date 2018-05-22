@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./components/navbar/Navbar"
+import Navbar from "./components/navbar/Navbar";
 import Card from "./components/card/Card"
 import {BrowserRouter as Router, Route, Switch, Redirect}
-    from "react-router-dom"
-import About from "./pages/About"
-import Projects from "./pages/Projects"
-import Contact from "./pages/Contact"
+    from "react-router-dom";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 class App extends Component {
     render() {
