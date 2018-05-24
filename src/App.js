@@ -6,8 +6,8 @@ import Card from "./components/card/Card"
 import {BrowserRouter as Router, Route, Switch, Redirect}
     from "react-router-dom";
 import About from "./pages/about/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Projects from "./pages/projects/Projects";
+import Contact from "./pages/contact/Contact";
 
 class App extends Component {
     render() {

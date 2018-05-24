@@ -5,3 +5,7 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+#copywrite:hover {
+    color: darkred !important;
+}
