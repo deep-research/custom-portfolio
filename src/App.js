@@ -20,8 +20,8 @@ class App extends Component {
                         <div className="container">
                             <div class="row">
                                 <div class="col-md-8 col-sm-7 bg-light p-4 mb-4 border">
-                                    <Route exact path="/" render={() => (
-                                        <Redirect to="/projects" />)}/>
+                                    <Route path="/" render={() => (
+                                        <Redirect to="/about" />)}/>
                                     <Route path="/about" component={About}/>
                                     <Route path="/projects" component={Projects}/>
                                     <Route path="/contact" component={Contact}/>

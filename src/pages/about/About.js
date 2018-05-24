@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import headshot from "./headshot.jpg";
-import "./about.css"
+import "./about.css";
+import { Link } from "react-router-dom";
 
 class About extends Component {
     render() {
@@ -15,6 +16,12 @@ class About extends Component {
                 <p class="about-text">I am a JavaScript full stack web developer who is currently looking for a junior position. I became interested in programming as a way to keep learning new things throughout my career. The logical thinking, problem solving and organizational techniques have all had a positive impact upon my thinking process.</p>
                 <p class="about-text">I have experience in JavaScript from Northwestern University's Coding Bootcamp. I have also studied Python 3 and MS SQL Server. In addition to my programming skills, I read religion and music at Lake Forest College. My religious studies also lead me to learning about the subtle art of astrological interpretation! In fact, the complexity of modern astrology is what inspired me to start coding.</p>
                 <p class="about-text">It is well known that musicians can make very good programmers. In my case, I feel the attention to detail that I acquired as a musician has allowed me to produce exceedingly high quality code. During orchestra rehearsals, we would tirelessly to perfect every single note. This is a meticulous process can take hours at a time, and it reminds me of the kind of debugging that I do today!</p>
+                <br />
+                <Link class="nav-link" to="/projects">
+                    <button type="button" class="btn btn-primary  mx-auto d-block">
+                        My Projects
+                    </button>
+                </Link>
             </div>
         );
     }
