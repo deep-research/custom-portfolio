@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import Card from "./components/card/Card"
 import {BrowserRouter as Router, Route, Switch, Redirect}
     from "react-router-dom";
-import About from "./pages/About";
+import About from "./pages/about/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
@@ -19,7 +19,7 @@ class App extends Component {
                     <Switch>
                         <div className="container">
                             <div class="row">
-                                <div class="col-md-8 col-sm-7">
+                                <div class="col-md-8 col-sm-7 bg-light p-4 mb-4 border">
                                     <Route exact path="/" render={() => (
                                         <Redirect to="/projects" />)}/>
                                     <Route path="/about" component={About}/>

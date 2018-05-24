@@ -21,7 +21,7 @@ class Card extends Component {
                             className="img-fluid socialMedia"
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/victor-fisher-3220a4143/"
+                    <a href="https://www.linkedin.com/in/deep-research/"
                         target="_blank" rel="noopener noreferrer"
                         className="p-2" data-tip="LinkedIn">
                         <img

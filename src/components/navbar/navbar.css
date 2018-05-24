@@ -1,5 +1,4 @@
 .navbar-brand {
-    font-size: 1.35em;
     color: rgb(182, 1, 1) !important;
 }
 
@@ -7,9 +6,15 @@
     color: darkred !important;
 }
 
-@media screen and (min-width: 470px) {
+@media screen and (min-width: 510px) {
     .navbar-brand {
-        font-size: 2em;
+        font-size: 2.05em;
+    }
+}
+
+@media (max-width: 510px) {
+    .navbar-brand {
+        font-size: 6.5vw;
     }
 }
 
