@@ -21,7 +21,7 @@ class Contact extends Component {
 					        <textarea class="form-control" placeholder="Write something..." id="exampleFormControlTextarea1" rows="6"></textarea>
 					    </div>
 					    <button id="submit-btn" type="button" class="btn btn-primary pl-4 pr-4 pb-2 pt-2">Submit</button>
-					    <br /><br />
+					    <br />
 					</form>
             </div>
         );

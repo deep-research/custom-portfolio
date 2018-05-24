@@ -30,6 +30,7 @@ class App extends Component {
                                         <Card />
                                 </div>
                             </div>
+                            <br /><br />
                         </div>
                     </Switch>
                     
