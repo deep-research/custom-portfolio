@@ -39,12 +39,6 @@ class Card extends Component {
                     </a>
                     <ReactTooltip place="top" type="dark" effect="solid"/>
                 </div>
-
-                {/* <div className="card-body d-flex flex-row">
-                    <a className="p-2" href="https://www.github.com/deep-research" target="_blank"><img src="images/github.png" alt="GitHub" className="img-fluid"></a>
-                    <a className="p-2" href="https://www.linkedin.com/in/victor-fisher-3220a4143/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" className="img-fluid"></a>
-                    <a className="p-2" href="https://stackoverflow.com/users/8310067/deep-research" target="_blank"><img src="images/stack-overflow.png" alt="Stack Overflow" className="img-fluid"></a>      
-                </div> */}
             </div>
         );
     }

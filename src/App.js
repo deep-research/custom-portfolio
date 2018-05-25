@@ -29,6 +29,7 @@ class App extends Component {
                                 </div>
                                 <div class="col-md-4 col-sm-5">
                                         <Card />
+                                        <br />
                                 </div>
                             </div>
                             <br /><br />

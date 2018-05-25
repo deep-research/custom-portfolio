@@ -11,11 +11,6 @@
     border-radius: 5%;
 }
 
-.gallery-item:active {
-    background: rgba(125, 255, 125, 0.315);
-    border-radius: 5%;
-}
-
 #img-gallery {
     display: flex;
     flex-wrap: wrap;
