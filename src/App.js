@@ -8,12 +8,13 @@ import {BrowserRouter as Router, Route, Switch, Redirect}
 import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
+import ScrollToTop from "./ScrollToTop"
 
 class App extends Component {
     render() {
         return (
             <Router>
-                <div>
+                <ScrollToTop>
                     <Navbar  />
 
                     <Switch>
@@ -35,7 +36,7 @@ class App extends Component {
                     </Switch>
                     
                     <Footer />
-                </div>
+                </ScrollToTop>
             </Router>
         );
     }

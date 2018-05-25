@@ -19,9 +19,7 @@ class Projects extends Component {
                             name={image.name}
                             alt={image.name}
                             occupation={image.occupation}
-                            location={image.location}
-                            onClick={() => this.props.imgClick(image.id)
-                                /* Game function runs when clicked */}>
+                            location={image.location}>
                         </img>
                     ))}
                 </div>
