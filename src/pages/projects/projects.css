@@ -1,0 +1,23 @@
+.gallery-item {
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    background: white;
+    border-radius: 5%;
+}
+
+.gallery-item:hover {
+    background:#9d9dff5e;
+    border-radius: 5%;
+}
+
+.gallery-item:active {
+    background: rgba(125, 255, 125, 0.315);
+    border-radius: 5%;
+}
+
+#img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
