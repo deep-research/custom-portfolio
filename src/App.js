@@ -20,7 +20,7 @@ class App extends Component {
                     <Switch>
                         <div className="container">
                             <div class="row">
-                                <div class="col-md-8 col-sm-7 bg-light p-4 mb-4 border">
+                                <div class="col-md-8 col-sm-7 bg-light p-4 border" id="content">
                                     <Route path="/" render={() => (
                                         <Redirect to="/about" />)}/>
                                     <Route path="/about" component={About}/>
