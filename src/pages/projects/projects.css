@@ -1,4 +1,4 @@
-#img-gallery {
+/* #img-gallery {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -15,4 +15,24 @@
 .gallery-item:hover {
     background:#9d9dff5e;
     border-radius: 5%;
+} */
+
+#img-gallery .thumbnail:hover {
+	opacity: .75;
+}
+
+.gallery-unit {
+    position: relative;
+}
+
+.gallery-label {
+	position: absolute;
+	bottom: 40px;
+    width: calc(100% - 30px);
+    left: 15px;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #00679794;
+	padding-bottom: 12px;
+    padding-top: 12px;
 }
