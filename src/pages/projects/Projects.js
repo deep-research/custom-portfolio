@@ -8,15 +8,15 @@ class Projects extends Component {
 
         for (var i=0; i<images.length; i+=2) {
             galleryCode.push(
-                <div className="row">
-                    <div class="gallery-unit col-md-6 col-sm-12">
+                <div className="row" key={i}>
+                    <div className="gallery-unit col-md-6 col-sm-12">
                         <a href={images[i].link} className="thumbnail">
                             <img className="img-fluid mb-4" src={images[i].image} alt={images[i].name} key={images[i].id} />
                             <div className="gallery-label text-center">{images[i].name}</div>
                         </a>
                     </div>
-                    <div class="gallery-unit col-md-6 col-sm-12">
-                        <a href={images[i+1].link} class="thumbnail">
+                    <div className="gallery-unit col-md-6 col-sm-12">
+                        <a href={images[i+1].link} className="thumbnail">
                             <img className="img-fluid mb-4" src={images[i+1].image} alt={images[i].name} key={images[i].id} />
                             <div className="gallery-label text-center">{images[i+1].name}</div>
                         </a>
@@ -31,7 +31,7 @@ class Projects extends Component {
         return (
             <div>
                 <h2 >My Projects</h2>
-                <hr class="mb-4 hr-thick" />
+                <hr className="mb-4 hr-thick" />
                 <div id="img-gallery">
                     {this.imgRow()}
                 </div>

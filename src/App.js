@@ -25,7 +25,7 @@ class App extends Component {
                                     <Route path="/projects" component={Projects}/>
                                     <Route path="/contact" component={Contact}/>
                                     <Route path="/" render={() => (
-                                        <Redirect to="/about" />)}/>
+                                        <Redirect to="/about" />) } />
                                 </div>
                                 <div className="col-md-4 col-sm-5">
                                         <Card />
