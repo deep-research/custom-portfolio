@@ -3,84 +3,72 @@
       "id": 1,
       "name": "SpongeBob",
       "image": "./images/board.jpg",
-      "occupation": "Fry Cook",
-      "location": "A Pineapple Under the Sea"
+      "link": "http://google.com"
     },
     {
       "id": 2,
       "name": "Mr. Krabs",
       "image": "./images/board.jpg",
-      "occupation": "Restaurant Owner",
-      "location": "A Giant Anchor"
+      "link": "http://yahoo.com"
     },
     {
       "id": 3,
       "name": "Squidward",
       "image": "./images/board.jpg",
-      "occupation": "Cashier",
-      "location": "An Easter Island Head"
+      "link": ""
     },
     {
       "id": 4,
       "name": "Dexter",
       "image": "./images/board.jpg",
-      "occupation": "Boy Genius",
-      "location": "A Secret Laboratory"
+      "link": ""
     },
     {
       "id": 5,
       "name": "Courage",
       "image": "./images/board.jpg",
-      "occupation": "A Cowardly Dog",
-      "location": "Nowhere, Kansas"
+      "link": ""
     },
     {
       "id": 6,
       "name": "Doug Funnie",
       "image": "./images/board.jpg",
-      "occupation": "Student",
-      "location": "Bluffington"
+      "link": ""
     },
     {
       "id": 7,
       "name": "Bugs Bunny",
       "image": "./images/board.jpg",
-      "occupation": "Looney Toon",
-      "location": "A Rabbit Burrow"
+      "link": ""
     },
     {
       "id": 8,
       "name": "Johnny Bravo",
       "image": "./images/board.jpg",
-      "occupation": "Ladies Man",
-      "location": "Aron City"
+      "link": ""
     },
     {
       "id": 9,
       "name": "Tommy Pickles",
       "image": "./images/board.jpg",
-      "occupation": "Adventurer",
-      "location": "California"
+      "link": ""
     },
     {
       "id": 10,
       "name": "Rocko",
       "image": "./images/board.jpg",
-      "occupation": "Cashier",
-      "location": "O-Town, California"
+      "link": ""
     },
     {
       "id": 11,
       "name": "Captain Planet",
       "image": "./images/board.jpg",
-      "occupation": "Superhero",
-      "location": "Earth"
+      "link": ""
     },
     {
       "id": 12,
       "name": "Ickis",
       "image": "./images/board.jpg",
-      "occupation": "Ahhhh! A Real Monster!",
-      "location": "Under a City Dump"
+      "link": ""
     }
 ]
