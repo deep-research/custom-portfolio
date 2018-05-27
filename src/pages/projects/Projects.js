@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./projects.css";
-import images from "./images/images.json"
+import images from "./images.json"
 
 class Projects extends Component {
     imgRow() {

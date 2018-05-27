@@ -1,22 +1,3 @@
-/* #img-gallery {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.gallery-item {
-    height: 220px;
-    width: 220px;
-    background: white;
-    border-radius: 5%;
-    position: relative;
-}
-
-.gallery-item:hover {
-    background:#9d9dff5e;
-    border-radius: 5%;
-} */
-
 #img-gallery .thumbnail:hover {
 	opacity: .75;
 }
