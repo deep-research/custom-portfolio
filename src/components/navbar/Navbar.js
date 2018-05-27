@@ -8,25 +8,25 @@ class Navbar extends Component {
         
         if (url.endsWith("about")) {
             var aboutBold = {
-                "font-weight": "bold"
+                "fontWeight": "bold"
             }
         } else if (url.endsWith("projects")) {
             var projectBold = {
-                "font-weight": "bold"
+                "fontWeight": "bold"
             }
         } else if (url.endsWith("contact")) {
             var contactBold = {
-                "font-weight": "bold"
+                "fontWeight": "bold"
             }
         }
 
         return (
             <nav className="navbar justify-content-around navbar-light bg-light mb-3 border-bottom">
-                <Link class="navbar-brand font-weight-bold" to="/about" title="¡Viva la Revolución!">Victor's Coding Revolution!</Link>
+                <Link className="navbar-brand font-weight-bold" to="/about" title="¡Viva la Revolución!">Victor's Coding Revolution!</Link>
                 <form className="form-inline">
-                        <Link class="nav-link" to="/about" style={aboutBold}>ABOUT</Link>
-                        <Link class="nav-link" to="/projects" style={projectBold}>PROJECTS</Link>
-                        <Link class="nav-link" to="/contact" style={contactBold}>CONTACT</Link>
+                        <Link className="nav-link" to="/about" style={aboutBold}>ABOUT</Link>
+                        <Link className="nav-link" to="/projects" style={projectBold}>PROJECTS</Link>
+                        <Link className="nav-link" to="/contact" style={contactBold}>CONTACT</Link>
                 </form>
             </nav>
         );
