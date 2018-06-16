@@ -10,14 +10,22 @@ class Projects extends Component {
             galleryCode.push(
                 <div className="row" key={i}>
                     <div className="gallery-unit col-md-6 col-sm-12">
-                        <a href={projects[i].link} className="thumbnail" target="_blank">
-                            <img className="img-fluid mb-4" src={projects[i].image} alt={projects[i].name} key={projects[i].id} />
+                        <a href={projects[i].link} className="thumbnail"
+                            target="_blank" title={projects[i].created}>
+                            <img className="img-fluid mb-4"
+                                src={projects[i].image}
+                                alt={projects[i].name}
+                                key={projects[i].id} />
                             <div className="gallery-label text-center">{projects[i].name}</div>
                         </a>
                     </div>
                     <div className="gallery-unit col-md-6 col-sm-12">
-                        <a href={projects[i+1].link} className="thumbnail" target="_blank">
-                            <img className="img-fluid mb-4" src={projects[i+1].image} alt={projects[i].name} key={projects[i].id} />
+                        <a href={projects[i+1].link} className="thumbnail"
+                            target="_blank" title={projects[i+1].created}>
+                            <img className="img-fluid mb-4"
+                                src={projects[i+1].image}
+                                alt={projects[i+1].name}
+                                key={projects[i+1].id} />
                             <div className="gallery-label text-center">{projects[i+1].name}</div>
                         </a>
                     </div>
