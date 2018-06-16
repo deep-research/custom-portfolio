@@ -21,11 +21,9 @@ class App extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-8 col-sm-7 bg-light p-4 border" id="content">
-                                    <Route exact path="/about" component={About}/>
+                                    <Route exact path="/" component={About}/>
                                     <Route exact path="/projects" component={Projects}/>
                                     <Route exact path="/contact" component={Contact}/>
-                                    <Route path="/" render={() => (
-                                        <Redirect to="/about" />) } />
                                 </div>
                                 <div className="col-md-4 col-sm-5">
                                         <Card />
