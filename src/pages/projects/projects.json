@@ -2,126 +2,126 @@
     {
       "id": 18,
       "name": "Custom Portfolio",
-      "image": "./images/archive.jpg",
+      "image": "custom-portfolio/images/archive.jpg",
       "link": "https://github.com/deep-research/custom-portfolio",
       "created": "Apr 23, 2018"
     },
     {
       "id": 17,
       "name": "Paper Scraper",
-      "image": "./images/newspaper.jpg",
+      "image": "custom-portfolio/images/newspaper.jpg",
       "link": "https://github.com/deep-research/news-scraper",
       "created": "Jan 19, 2018"
     },
     {
       "id": 16,
       "name": "Astrology",
-      "image": "./images/astrology.jpg",
+      "image": "custom-portfolio/images/astrology.jpg",
       "link": "https://github.com/deep-research/astrological-research-tool",
       "created": "Feb 12, 2018"
     },
     {
       "id": 15,
       "name": "Memory Game",
-      "image": "./images/cards.jpg",
+      "image": "custom-portfolio/images/cards.jpg",
       "link": "https://github.com/deep-research/memory-game",
       "created": "Feb 1, 2018"
     },
     {
       "id": 14,
       "name": "Sequelize",
-      "image": "./images/database.jpg",
+      "image": "custom-portfolio/images/database.jpg",
       "link": "https://github.com/deep-research/sequelizedBurger",
       "created": "Dec 26, 2017"
     },
     {
       "id": 13,
       "name": "Liri Prompt",
-      "image": "./images/matrix.jpg",
+      "image": "custom-portfolio/images/matrix.jpg",
       "link": "https://github.com/deep-research/liri-node-app",
       "created": "Dec 23, 2017"
     },
     {
       "id": 12,
       "name": "Burger",
-      "image": "./images/burger.jpg",
+      "image": "custom-portfolio/images/burger.jpg",
       "link": "https://github.com/deep-research/burger",
       "created": "Dec 14, 2017"
     },
     {
       "id": 11,
       "name": "Dating Site",
-      "image": "./images/dating.jpg",
+      "image": "custom-portfolio/images/dating.jpg",
       "link": "https://github.com/deep-research/friend-finder",
       "created": "Dec 7, 2017"
     },
     {
       "id": 10,
       "name": "Bamazon",
-      "image": "./images/trade.jpg",
+      "image": "custom-portfolio/images/trade.jpg",
       "link": "https://github.com/deep-research/bamazon",
       "created": "Nov 30, 2017"
     },
     {
       "id": 9,
       "name": "Hangman",
-      "image": "./images/gallows.jpg",
+      "image": "custom-portfolio/images/gallows.jpg",
       "link": "https://github.com/deep-research/hangman-game",
       "created": "Nov 22, 2017"
     },
     {
       "id": 8,
       "name": "Train Guide",
-      "image": "./images/train.jpg",
+      "image": "custom-portfolio/images/train.jpg",
       "link": "https://github.com/deep-research/train-schedules",
       "created": "Oct 20, 2017"
     },
     {
       "id": 7,
       "name": "GIF Search",
-      "image": "./images/detective.jpg",
+      "image": "custom-portfolio/images/detective.jpg",
       "link": "https://github.com/deep-research/gif-search",
       "created": "Oct 12, 2017"
     },
     {
       "id": 6,
       "name": "Trivia Game",
-      "image": "./images/show.jpg",
+      "image": "custom-portfolio/images/show.jpg",
       "link": "https://github.com/deep-research/TriviaGame",
       "created": "Oct 4, 2017"
     },
     {
       "id": 5,
       "name": "Crystal Game",
-      "image": "./images/crystal.jpg",
+      "image": "custom-portfolio/images/crystal.jpg",
       "link": "https://github.com/deep-research/week-4-game",
       "created": "Sep 29, 2017"
     },
     {
       "id": 4,
       "name": "Psychic Game",
-      "image": "./images/tarot.jpg",
+      "image": "custom-portfolio/images/tarot.jpg",
       "link": "https://github.com/deep-research/Psychic-Game",
       "created": "Sep 24, 2017"
     },
     {
       "id": 3,
       "name": "Responsive Portfolio",
-      "image": "./images/phone.jpg",
+      "image": "custom-portfolio/images/phone.jpg",
       "link": "https://github.com/deep-research/Responsive-Portfolio",
       "created": "Sep 19, 2017"
     },
     {
       "id": 2,
       "name": "Bootstrap Portfolio",
-      "image": "./images/bootstrap.jpg",
+      "image": "custom-portfolio/images/bootstrap.jpg",
       "link": "https://github.com/deep-research/Bootstrap-Portfolio",
       "created": "Sep 15, 2017"
     },
     {
       "id": 1,
       "name": "Wireframe",
-      "image": "./images/wireframe.jpg",
+      "image": "custom-portfolio/images/wireframe.jpg",
       "link": "https://github.com/deep-research/Wireframe",
       "created": "Sep 4, 2017"
     }
