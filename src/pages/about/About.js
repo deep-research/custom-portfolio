@@ -9,7 +9,7 @@ class About extends Component {
             <div>
                 <h2 >About Me</h2>
                 <hr className="mb-4 hr-thick" />
-                <img src={headshot} alt="cat" id="cat" className="img-thumbnail float-left mr-4 mb-4 col-md-6 col-lg-5 col-sm-12 p-2" />
+                <img src={headshot} alt="headshot" id="headshot" className="img-thumbnail float-left mr-4 mb-4 col-md-6 col-lg-5 col-sm-12 p-2" />
                 <blockquote className="blockquote">
                     <p className="mb-0 quote">Victor Fisher: A deep thinker and meticulous worker at the forefront of a true coding revolution!</p>
                 </blockquote>
