@@ -8,7 +8,8 @@ import {BrowserRouter as Router, Route, Switch, Redirect}
 import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
-import ScrollToTop from "./ScrollToTop"
+import ScrollToTop from "./ScrollToTop";
+import NoMatch from "./pages/about/NoMatch";
 
 class App extends Component {
     render() {
@@ -17,24 +18,25 @@ class App extends Component {
                 <ScrollToTop>
                     <Navbar  />
 
-                    <Switch>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-8 col-sm-7 bg-light p-4 border" id="content">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8 col-sm-7 bg-light p-4 border" id="content">
+                                <Switch>
+                                    <Route exact path="/" render={() => (
+                                        <Redirect to="/about" />) } />
                                     <Route exact path="/about" component={About}/>
                                     <Route exact path="/projects" component={Projects}/>
                                     <Route exact path="/contact" component={Contact}/>
-                                    <Route exact path="/" render={() => (
-                                        <Redirect to="/about" />) } />
-                                </div>
-                                <div className="col-md-4 col-sm-5">
-                                        <Card />
-                                        <br />
-                                </div>
+                                    <Route component={NoMatch}/>
+                                </Switch>
                             </div>
-                            <br /><br />
+                            <div className="col-md-4 col-sm-5">
+                                    <Card />
+                                    <br />
+                            </div>
                         </div>
-                    </Switch>
+                        <br /><br />
+                    </div>
                     
                     <Footer />
                 </ScrollToTop>
