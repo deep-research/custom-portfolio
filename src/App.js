@@ -24,7 +24,7 @@ class App extends Component {
                                     <Route exact path="/about" component={About}/>
                                     <Route exact path="/projects" component={Projects}/>
                                     <Route exact path="/contact" component={Contact}/>
-                                    <Route path="/" render={() => (
+                                    <Route exact path="/" render={() => (
                                         <Redirect to="/about" />) } />
                                 </div>
                                 <div className="col-md-4 col-sm-5">
