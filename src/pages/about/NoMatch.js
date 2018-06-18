@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import headshot from "./headshot.jpg";
 import "./about.css";
-import { Link } from "react-router-dom";
 
 class About extends Component {
     render() {
