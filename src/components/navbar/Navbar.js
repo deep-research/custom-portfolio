@@ -24,9 +24,9 @@ class Navbar extends Component {
             <nav className="navbar justify-content-around navbar-light bg-light mb-3 border-bottom">
                 <Link className="navbar-brand font-weight-bold" to="/about" title="¡Viva la Revolución!">Victor's Coding Revolution!</Link>
                 <form className="form-inline">
-                        <Link className="nav-link" to="/about" style={aboutBold}>ABOUT</Link>
-                        <Link className="nav-link" to="/projects" style={projectBold}>PROJECTS</Link>
-                        {/* <Link className="nav-link" to="/contact" style={contactBold}>CONTACT</Link> */}
+                        <Link title="About Page" className="nav-link" to="/about" style={aboutBold}>ABOUT</Link>
+                        <Link  title="Projects Page" className="nav-link" to="/projects" style={projectBold}>PROJECTS</Link>
+                        {/* <Link  title="Contact Page" className="nav-link" to="/contact" style={contactBold}>CONTACT</Link> */}
                 </form>
             </nav>
         );
