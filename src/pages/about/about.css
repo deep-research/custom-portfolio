@@ -5,3 +5,7 @@
 .quote {
     font-style: italic;
 }
+
+#email {
+    text-align: center;
+}

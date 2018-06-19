@@ -9,9 +9,11 @@ class About extends Component {
             <div>
                 <h2 >About Me</h2>
                 <hr className="mb-4 hr-thick" />
-                <img src={headshot} alt="headshot" id="headshot" className="img-thumbnail float-left mr-4 mb-4 col-md-6 col-lg-5 col-sm-12 p-2" />
+                <img src={headshot} alt="headshot" id="headshot"
+                    className="img-thumbnail float-left mr-4 mb-4 col-md-6 col-lg-5 col-sm-12 p-2" />
                 <blockquote className="blockquote">
-                    <p className="mb-0 quote">Victor Fisher: A deep thinker and meticulous worker at the forefront of a true coding revolution!</p>
+                    <p className="mb-0 quote">Victor Fisher: A deep thinker and meticulous
+                        worker at the forefront of a true coding revolution!</p>
                 </blockquote>
                 <p className="about-text">I am a JavaScript full stack web developer who
                     is currently looking for a junior position. I became interested in
@@ -46,7 +48,8 @@ class About extends Component {
                     <li>Windows 10 and Linux</li>
                 </ul>
                 <br />
-                <Link className="d-flex justify-content-center" to="/projects"  style={{"textDecoration": "none"}}>
+                <Link className="d-flex justify-content-center" to="/projects" 
+                    style={{"textDecoration": "none"}}>
                     <button type="button" className="btn btn-primary">
                         My Projects
                     </button>

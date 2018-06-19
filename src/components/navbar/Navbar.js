@@ -26,7 +26,7 @@ class Navbar extends Component {
                 <form className="form-inline">
                         <Link className="nav-link" to="/about" style={aboutBold}>ABOUT</Link>
                         <Link className="nav-link" to="/projects" style={projectBold}>PROJECTS</Link>
-                        <Link className="nav-link" to="/contact" style={contactBold}>CONTACT</Link>
+                        {/* <Link className="nav-link" to="/contact" style={contactBold}>CONTACT</Link> */}
                 </form>
             </nav>
         );

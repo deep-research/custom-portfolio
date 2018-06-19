@@ -26,7 +26,7 @@ class App extends Component {
                                         <Redirect to="/about" />) } />
                                     <Route exact path="/about" component={About}/>
                                     <Route exact path="/projects" component={Projects}/>
-                                    <Route exact path="/contact" component={Contact}/>
+                                    {/* <Route exact path="/contact" component={Contact}/> */}
                                     <Route component={NoMatch}/>
                                 </Switch>
                             </div>

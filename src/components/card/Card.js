@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./card.css";
 import github from "./images/github.png";
 import linkedIn from "./images/linkedIn.png";
-import stackOverflow from "./images/stackOverflow.png";
+import email from "./images/email.png";
 import ReactTooltip from "react-tooltip";
 
 class Card extends Component {
@@ -29,11 +29,11 @@ class Card extends Component {
                             className="img-fluid socialMedia"
                         />
                     </a>
-                    <a href="https://stackoverflow.com/users/8310067/deep-research"
+                    <a href="mailto:contact@victorscodingrevolution.com"
                         target="_blank" rel="noopener noreferrer"
-                        className="p-2" data-tip="Stack Overflow">
+                        className="p-2" data-tip="Email">
                         <img
-                            src={stackOverflow} alt="Stack Overflow"
+                            src={email} alt="Email"
                             className="img-fluid socialMedia"
                         />
                     </a>
