@@ -15,9 +15,9 @@
     },
     {
       "id": 16,
-      "name": "Astrology",
-      "image": "./images/astrology.jpg",
-      "link": "https://github.com/deep-research/astrological-research-tool",
+      "name": "Astronomy",
+      "image": "./images/astronomy.jpg",
+      "link": "https://github.com/deep-research/astronomical-research-tool",
       "created": "Feb 12, 2018"
     },
     {
