@@ -20,10 +20,10 @@ class About extends Component {
                     programming as a way to keep learning new things throughout my career.
                     The logical thinking, problem solving and organizational techniques
                     have all had a positive impact upon my thinking process.</p>
-                <p className="about-text">I have experience in JavaScript from Northwestern
-                    University's Coding Bootcamp. I have also studied Python and Linux at
-                    Harper College. In addition to my programming skills, I read religion
-                    and music at Lake Forest College.</p>
+                <p className="about-text">I have experience in Full Stack JavaScript Web
+                    Developement from Northwestern University's Coding Bootcamp. I have
+                    also studied Python and Linux at Harper College. In addition to my
+                    programming skills, I majored in music at Lake Forest College.</p>
                 <p className="about-text">It is well known that musicians can make very good
                     programmers. In my case, I feel the attention to detail that I acquired
                     as a musician has allowed me to produce exceedingly high quality code.
