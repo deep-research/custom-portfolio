@@ -23,9 +23,7 @@ class About extends Component {
                 <p className="about-text">I have experience in JavaScript from Northwestern
                     University's Coding Bootcamp. I have also studied Python and Linux at
                     Harper College. In addition to my programming skills, I read religion
-                    and music at Lake Forest College. My religious studies even lead me to
-                    learning about the history of astrology! In fact, the complexity of
-                    modern astrology is what inspired me to start coding.</p>
+                    and music at Lake Forest College.</p>
                 <p className="about-text">It is well known that musicians can make very good
                     programmers. In my case, I feel the attention to detail that I acquired
                     as a musician has allowed me to produce exceedingly high quality code.
