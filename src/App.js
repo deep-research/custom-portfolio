@@ -22,7 +22,7 @@ class App extends Component {
                         <div className="row">
                             <div className="col-md-8 col-sm-7 bg-light p-4 border" id="content">
                                 <Switch>
-                                    <Route exact path="/custom-portfolio" render={() => (
+                                    <Route exact path="/" render={() => (
                                         <Redirect to="/about" />) } />
                                     <Route exact path="/about" component={About}/>
                                     <Route exact path="/projects" component={Projects}/>
